@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from lead import leads
 
+# Prueba ping (Comprobar ruta 127.0.0.1:4000/ping)
 app = Flask(__name__)
 @app.route('/ping')
 def ping():
